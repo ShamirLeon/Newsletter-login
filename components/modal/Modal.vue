@@ -13,9 +13,6 @@
 </template>
 
 <script setup>
-
-import { defineProps, defineEmits } from 'vue'
-
 /* Define props */
 const props = defineProps({
     email: String,
@@ -33,7 +30,7 @@ const classes = {
         title: 'text-DarkSlateGrey text-4xl font-bold mb-8',
         span: 'font-bold',
         paragraph: 'mb-6',
-        button: 'transition-all w-full text-sm font-bold tracking-wider text-center bg-DarkSlateGrey text-white py-3 rounded-lg border border-DarkSlateGrey hover:bg-gradient-to-r hover:from-Pink hover:to-Orange hover:border-transparent'
+        button: 'btn w-full'
     }
 }
 

@@ -53,7 +53,7 @@ const classes = {
     form: 'flex flex-col gap-2',
     label: 'font-bold text-sm',
     input: 'py-4 px-6 rounded-lg border mb-4 focus:outline-none',
-    submit: 'transition-all bg-DarkSlateGrey text-white py-4 rounded-lg border border-DarkSlateGrey hover:bg-gradient-to-r hover:from-Pink hover:to-Orange hover:border-transparent'
+    submit: 'btn'
   },
 }
 
