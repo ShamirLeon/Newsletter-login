@@ -6,6 +6,18 @@
 
 @layer components {
   .btn {
-    @apply transition-all bg-DarkSlateGrey text-white py-4 rounded-lg border border-DarkSlateGrey hover:bg-gradient-to-r hover:from-Pink hover:to-Orange hover:border-transparent;
+    @apply  text-white py-4 rounded-lg border border-DarkSlateGrey bg-btn;
   }
+}
+
+.bg-btn {
+  background-image: linear-gradient(90deg, #242742, #242742, #ff693e, #ff5377);
+  background-size: 280%; /* Tamaño del gradiente */
+  background-position: left bottom, right bottom; /* Posición inicial de los gradientes */
+  transition: all .5s ease;
+}
+
+.bg-btn:hover {
+  background-position: right bottom, left bottom; /* Movemos ambos gradientes hacia la izquierda */
+  border: 1px solid transparent;
 }
