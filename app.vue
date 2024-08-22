@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <Modal v-if="modalShow" :email="email" @dismiss="handleModal" />
+    <Modal v-if="modalShow" :email="email" @dissmiss="handleModal()" />
   </div>
 </template>
 
